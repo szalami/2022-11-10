@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p {
+    font-size: 6rem;
+    color: #fff;
+    text-align: center;
+}
+.white {
+    color: #000;
+}
+.stripes {
+    width: 60%;
+    margin: 0 auto;
+    line-height: 33.33333vh;
+    border:1px solid #000;
+}
+.stripes:first-child {
+    background-color: #ff0000;
+}
+.stripes:last-child {
+    background-color: #008000;
+}
