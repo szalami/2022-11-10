@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 500px;
+    height: 500px;
+    margin: 30px auto;
+    border: 1px solid #000;
+}
+#container div {
+    width: 62.25px;
+    height: 62.25px;
+    float: left;
+}
+#container .row:nth-child(even) div:nth-child(even) {
+    background-color: #000;
+}
+#container .row:nth-child(odd) div:nth-child(odd) {
+    background-color: #000;
+}
